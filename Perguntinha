@@ -1,0 +1,17 @@
+<div id="phrase">me ama?</div>
+<button id="yes">sim</button>
+<button id="no">não</button>
+
+<script>
+  var yesButton = document.getElementById("yes");
+  var noButton = document.getElementById("no");
+
+  noButton.addEventListener("click", function() {
+    noButton.style.position = "absolute";
+    noButton.style.right = "10px";
+  });
+
+  yesButton.addEventListener("click", function() {
+    alert("sempre soube");
+  });
+</script>
